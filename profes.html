@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Proyectos de Título</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <style>
+            .idea{
+                weith:100%;
+                clear:both;
+                margin-left: -0.75rem;
+            }
+            .idea img{ 
+                width:100%; 
+                height: auto; 
+            } 
+            .esconde{
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Resumen <span>de Proyectos de Título</span></a>
+            <a href="profes.html" class="active"><span>Proyectos por </span>Profesor(a) Guía</a>
+            <a href="titulos.html"><span>Proyectos por </span>Título Profesional</a>
+            <a href="semestres.html"><span>Proyectos por </span>Semestre</a>
+        </nav>
+        <header>
+            <h1>Proyectos por Profesor(a) Guía</h1>
+            <select>
+                <option value="Silva Roquefort, Rebeca" selected>Rebeca Silva Roquefort</option>
+                <option value="Soto Calquín, Leonardo">Leonardo Soto Calquín</option>
+            </select>
+        </header>
+        <main>
+            
+            <div class="doble">
+                <div  class="info" id="primera">
+    
+                        <div class="medio">
+                            <img src="viz/g-trozo-1.png"></div>
+                            <h1>Rebeca Silva Roquefort</h1>
+                           <p>Prof. Asistente</p>
+                           <p>Categoría académica ordinaria</p>
+                            <p>Facultad de Arquitectura y Urbanismo</p>
+                            <p>Jornada: 44 hrs</p>
+                            <p>Contacto: bekysilva@uchile.cl </p>
+                           
+                            <dl>Título/Doctorado
+                            <dd>Diseñador Industrial Universidad de chile 31/3/2006</dd>
+                            <dd>Arquitectura y Urbanismo Universidad Politecnica de Madrid</dd>
+                        </dl>
+                           
+                            
+                        
+                        <div class="completo">
+                            <h4>Pefíl académico</h4>
+                            <p>Diseñadora, urbanista y doctora en Arquitectura y Urbanismo. Es académica y subdirectora del Instituto de la Vivienda de la Universidad de Chile. Su investigación aborda el derecho a la ciudad, el espacio público inclusivo y las relaciones entre cuerpo, territorio y vida cotidiana desde una perspectiva interseccional.</p>
+                            <h4>Áreas de interés</h4>
+                            <p>1. Derecho a la ciudad desde un enfoque interseccional.</p>
+                            <p>2. Espacio Público Inclusivo.</p>
+                            <p>3. Cuerpo y territorio</p>
+                            <p>4. Adaptabilidad  del entorno</p>
+                            <object data="viz/multiset_bar_chart.svg" type="image/svg+xml"></object> 
+                    
+                            
+                    
+                        
+                    <div class="completo"><img src="viz/g-trozo-4.png"></div>
+                    
+                        <div class="completo"><img src="viz/g-trozo-5.png">
+                        <div class="medio">
+                         <h4>Áreas prioritarias en investigacion y creacion de la Facultad de Arquitectura y Urbanismo:</h4>
+                            <p>Área prioritaria 3: Asentamientos, movilidades y orgánicas comunitarias.</p>
+                            <p>Área prioritaria 4: Dinámicas y transformaciones morfologicas, urbanas y rurales.</p>
+                            <p>Área prioritaria 5: Creacionistas, innovación proyectual y desarrollos tecnologicos.</p>
+                            <h4>Líneas de Investigación del Departamento de Diseño</h4>
+                            <p>* Diseño centrado en la persona producto y servicio</p>
+                            <h4>Énfasis del Programa Académico</h4>
+                            <p>* Investigación</p>
+                            <p>* Creacion</p>
+                            </div>
+                            
+                        <div class="medio"><img src="viz/g-trozo-7.png"></div>
+                        <div class="completo"><img src="viz/g-trozo-8.png"></div>
+                    <div class="completo"><img src="viz/g-trozo-9.png"></div>
+                    <div class="completo"><img src="viz/g-trozo-10.png"></div>
+                    <div class="completo"><img src="viz/g-trozo-11.png"></div>
+                </div>
+                <div  class="info esconde" id="segunda">
+                    <div class="medio"><img src="viz/g-trozo-1.png"></div>
+                        <div class="completo"><img src="viz/g-trozo-2.png"></div>
+                        <div class="completo"><img src="viz/g-trozo-3.png"></div>
+                        <div class="medio"><img src="viz/g-trozo-4.png"></div>
+                        <div class="medio"><img src="viz/g-trozo-5.png"></div>
+                        <div class="completo"><img src="viz/g-trozo-6.png"></div>
+                        <div class="completo"><img src="viz/g-trozo-7.png"></div>
+                </div>
+                
+                <div class="uno">
+                    <p>¿Cómo se relaciona su nota aprobatoria previa, de Proyecto de Título I, con la nota definida por la comisión examinadora de Proyecto de Título II?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" id="slope"></svg>
+                </div>
+                <div class="otro">
+                    <p>¿Qué parte de las inscripciones en la asignatura de Proyecto de Título II con <span id="profe"></span> se han convertido en Exámenes de Título aprobados?</p>
+                    <div id="donnut"></div>
+                </div>    
+                <hr/>
+            </div>
+            <h2></h2>
+            <table>
+                <thead>
+                    <th>Egresado/a</th>
+                    <th>Título</th>
+                    <th>Semestre</th>
+                    <th>Proyecto</th>
+                    <th>Nota</th>
+                </thead>
+                <tbody id="mencion"></tbody>
+            </table>
+            <div id="palabreo"></div>           
+        </main>
+        <footer>
+            <p>
+                <small>
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank">Diseño y visualización de información</a> | Este ejercicio, preparado por
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/profesorfaco">profesorfaco</a>, es publicado bajo licencia
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC 4.0</a>
+                </small>
+            </p>
+        </footer>
+        <script src="js/profes.js"></script>
+    </body>
+</html>
