@@ -260,7 +260,7 @@ div.otro{
 }
 
 @media (orientation:portrait){
-    div.uno, div.otro{
+    div.info, div.medio{
         width:100%;
     }
 }
