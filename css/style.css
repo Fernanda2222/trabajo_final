@@ -260,7 +260,7 @@ div.otro{
 }
 
 @media (orientation:portrait){
-    div.info, div.medio{
+    div.uno, div otro{
         width:100%;
     }
 }
@@ -268,6 +268,12 @@ div.otro{
 
 div.info{
     background:0
+}
+
+@media (orientation:portrait){
+    div.info, div medio{
+        width:100%;
+    }
 }
 
 div.info div.medio{
@@ -295,5 +301,5 @@ div.completo h3, div.medio h3{
 }
 
 div.completo img, div.medio img, div.completo object, div.medio object{
-    width: 100%
+    max-width: 100%
 }
